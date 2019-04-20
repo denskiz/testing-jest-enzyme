@@ -2,10 +2,12 @@
   "name": "testing",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://denskiz.github.io/testing-jest-enzyme",
   "dependencies": {
     "axios": "^0.18.0",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.12.1",
+    "gh-pages": "^2.0.1",
     "moxios": "^0.4.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -16,6 +18,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -8,7 +8,7 @@ beforeEach(() => {
   // turn off any requests issued by axios
   moxios.install();
   // fool axios into thinking this is the response
-  moxios.stubRequest('http://jsonplaceholder.typicode.com/comments', {
+  moxios.stubRequest('https://jsonplaceholder.typicode.com/comments', {
     status: 200,
     response: [{ name: 'Fetched #1' }, { name: 'Fetched #2' }]
   });

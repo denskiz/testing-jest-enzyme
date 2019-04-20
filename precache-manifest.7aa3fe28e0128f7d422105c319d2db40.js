@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7325295c64508d8cc74f",
+    "revision": "9aa0209c9c388946263c",
     "url": "/testing-jest-enzyme/static/css/main.4ea716f2.chunk.css"
   },
   {
-    "revision": "7325295c64508d8cc74f",
-    "url": "/testing-jest-enzyme/static/js/main.94991a29.chunk.js"
+    "revision": "9aa0209c9c388946263c",
+    "url": "/testing-jest-enzyme/static/js/main.b233e686.chunk.js"
   },
   {
     "revision": "f542fe80ebfee8a28cc7",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/testing-jest-enzyme/static/js/2.71b1ebd6.chunk.js"
   },
   {
-    "revision": "f0148d870c3e40307c7e01ce96971153",
+    "revision": "c816a6fa78d08778df9eb5d79e6d1672",
     "url": "/testing-jest-enzyme/index.html"
   }
 ];
